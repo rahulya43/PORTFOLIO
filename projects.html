@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education - Portfolio</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+        body {
+            font-family: 'Roboto', Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        header {
+            background-color: #343a40;
+            color: #ffffff;
+            text-align: center;
+            padding: 2em 0;
+            position: relative;
+        }
+        .header-content h1 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+        .profile-pic {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            position: absolute;
+            top: 50%;
+            left: 50px;
+            transform: translateY(-50%);
+            border: 4px solid #ffffff;
+        }
+        nav {
+            background-color: #495057;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: rgb(29, 199, 218);
+            font-size: 1rem;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #ff6347;
+        }
+        .section-content {
+            background-color: #ffffff;
+            padding: 2rem;
+            margin: 2rem;
+            border-radius: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 90%;
+            max-width: 1000px;
+            margin: 2rem auto;
+        }
+        .section-content h2 {
+            font-size: 2rem;
+            margin-top: 0;
+            color: #343a40;
+            border-bottom: 2px solid #ff6347;
+            padding-bottom: 10px;
+        }
+        .section-content dl dt {
+            font-weight: bold;
+            margin-top: 10px;
+            color: #495057;
+        }
+        .section-content dl dd {
+            margin: 5px 0 15px 0;
+            color: #666;
+        }
+        .education-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="PROF.jpg" alt="profile pic" class="profile-pic">
+            <h1>ANKALA VEERA RAHUL YADAV</h1>
+            <p>Front-End Developer</p>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="profile.html">About</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="skills.html">Skills</a></li>
+        </ul>
+    </nav>
+    <section id="projects">
+        <div class="project-container">
+            <div class="pro-section">
+                <div class="section-content">
+                    <h2>Projects</h2>
+                    <dl>
+                        <dt>Online Quiz System</dt>
+                        <dd>Created an online quiz which gives marks and etc using C++</dd>
+                        <dt>Online Bus Ticket Website</dt>
+                        <dd>Developed an online bus ticket booking system using web development technologies</dd>
+                        <dt>Online Dictionary</dt>
+                        <dd>Created a digital resource using a circular linked list that provides definitions, spellings, pronunciations, and more about words and phrases in various languages</dd>
+                        <dt>Online Chat Apps</dt>
+                        <dd>Developed a chat app website using web technologies and DBMS</dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="interns-section">
+                <div class="section-content">
+                    <h2>Internships</h2>
+                    <dl>
+                        <dt>Data Science</dt>
+                        <dd>From PadhAI</dd>
+                        <dt>Web Development</dt>
+                        <dd>From EDUNET</dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 RAHUL YADAV</p>
+    </footer>
+</body>
+</html>
