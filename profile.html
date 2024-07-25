@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+        body {
+            font-family: 'Roboto', Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        header {
+            background-color: #343a40;
+            color: #ffffff;
+            text-align: center;
+            padding: 2em 0;
+            position: relative;
+        }
+        .profile-pic {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            position: absolute;
+            top: 50%;
+            left: 50px;
+            transform: translateY(-50%);
+            border: 4px solid #ffffff;
+        }
+        header h1 {
+            margin-left: 200px;
+            font-size: 2.5rem;
+        }
+        header p {
+            margin-left: 200px;
+            font-size: 1.2rem;
+            margin-top: 0.5em;
+        }
+        .contact-info {
+            position: absolute;
+            top: 50%;
+            right: 50px;
+            transform: translateY(-50%);
+            text-align: left;
+        }
+        .contact-info p {
+            margin: 0;
+            font-size: 1rem;
+            color: #ffffff;
+        }
+        nav {
+            background-color: #495057;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 1rem;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #ff6347;
+        }
+        .section-content {
+            background-color: #ffffff;
+            padding: 2rem;
+            margin: 1rem;
+            border-radius: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .section-content h2 {
+            font-size: 2rem;
+            margin-top: 0;
+        }
+        .section-content p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+        footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="PROF.jpg" alt="Profile Picture" class="profile-pic">
+            <h1>ANKALA VEERA RAHUL YADAV</h1>
+            <p>FRONT-END DEVELOPER</p>
+            <div class="contact-info">
+                <p>Email: rahulyadav@gmail.com</p>
+                <p>Phone: 8919848256</p>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="profile.html">About</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="skills.html">Skills</a></li>
+        </ul>
+    </nav>
+    <section id="about"> 
+        <div class="section-content">
+            <h2>About Me</h2>
+            <p>Hello, I'm ANKALA VEERA RAHUL YADAV from KADAPA. My passion lies in Data Science and Artificial Intelligence/Machine Learning, complemented by a strong background in web development. I enjoy crafting innovative and efficient web applications, driven by the challenge of addressing real-world problems through technology. My projects, such as a Car Rental System and an Online Learning System, showcase my skills in web and database management. I am committed to lifelong learning and continually updating my knowledge with the latest advancements in my field. My aim is to make meaningful contributions to the tech industry and drive impactful change through my work.</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 RAHUL YADAV</p>
+    </footer>
+</body>
+</html>
